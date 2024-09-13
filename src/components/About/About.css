@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about{
+  padding: 30px;
+  
+}
+
+.about h2 {
+  background-color:azure;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  padding: 4px;
+  border-radius: 5px;
+
+
+}
+
+.about p{
+  background-color:beige;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+  border-radius: 5px;
+}

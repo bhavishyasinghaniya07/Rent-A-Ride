@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-car{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-evenly;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 73px;
+  background-color: #2c3e50;
+  padding: 20px;
+  
+
+
+}
+
+.card{
+  width: 300px;
+  background-color: #A5CCD1;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  gap: 5px;
+
+}
+
+.card img{
+  width: 250px;
+  height: 180px;
+  mix-blend-mode:multiply;
+
+}
+
+.card button{
+  color: rgb(255, 255, 255);
+  width: 100px;
+  background-color: rgb(93, 93, 234);
+  border: none;
+  border-radius: 2px;
+  padding: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card p{
+  color: rgb(120, 179, 33);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
